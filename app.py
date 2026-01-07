@@ -17,7 +17,7 @@ app = dash.Dash(external_stylesheets=[dbc.themes.LUX])
 
 # Carregando os dados
 
-df = pd.read_csv("OneDrive/Documentos/Shopping_Behavior/shopping_behavior_updated.csv")
+df = pd.read_csv("shopping_behavior_updated.csv")
 
 
 
