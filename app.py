@@ -13,6 +13,7 @@ from dash import no_update
 # Escolhendo o Tema
 
 app = dash.Dash(external_stylesheets=[dbc.themes.LUX])
+server = app.server
 
 
 # Carregando os dados
